@@ -1,0 +1,234 @@
+body{
+	font-family: Verdana, Arial, Tahoma, Serif;
+    background: url("https://img.freepik.com/free-vector/soft-yellow-watercolor-texture-background_1055-10236.jpg?w=2000")
+}
+
+.container-fluid > .navbar-header {
+    background-color: rgb(249,249,249);
+    height: 250px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-brand > img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    margin-top: -20px;
+    border-radius: 50%;
+    -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+}
+
+.navbar-brand > .collegePic {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: 80px;
+    bottom: 10px;
+    background-color: black;
+    -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  border-radius: 85%;
+  border: 2px solid black;  
+}
+
+.row:not(#footerRow) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row > [class*='col-']:not(#footerCol){
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* .lang {
+    margin-left: 50px;
+}
+
+.proj {
+    margin-right: 25px;
+}
+
+.school {
+    margin-right: 50px;
+}
+
+.job {
+    margin-left: 25px;
+} */
+
+#contactInfo {
+    margin-top: 15px;
+}
+
+#contactInfo span {
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+
+#contactInfo img {
+    height: 40px;
+    width: 40px;
+    clear: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#contactInfo #gmail {
+    width: 50px;
+}
+
+.navbar-brand p {
+    width: 75%;
+    max-height: 50px;
+}
+
+.navbar-brand h3 {
+    margin-top: -10px;
+}
+
+.lang, .proj, .job, .school, .footer {
+    border: 2px solid black;  
+}
+
+.lang:hover, .proj:hover, .job:hover, .school:hover {
+    border: 4px solid rgb(241,227,155);
+    box-shadow: 1px 1px rgb(241,227,155), -0.5em 0 .4em rgb(241,227,155);
+}
+
+#contactInfo img:hover{
+    box-shadow: 1px 1px rgb(241,227,155), -0.5em 0 .4em rgb(241,227,155);
+    border-radius: 25%;
+}
+
+.navbar-header{
+    border-style: ridge;
+    border-radius: 5px;
+}
+
+.lang, .proj, .job, .school {
+    background-color: rgb(248,241,205);
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.footer > div {
+    text-align: center;
+}
+
+.section-title{
+    font-size: 1.5em;
+    text-shadow: -2px 1px 2px rgb(133, 138, 145);
+}
+
+.name {
+    color: rgb(238,220,130);
+    font-family: Gruppo; font-style: normal; font-variant: normal; font-weight: 700; 
+}
+
+.lang, .job, .footer {
+    border-style: outset;
+}
+
+.proj, .school {
+    border-style: inset;
+}
+
+@media (min-width: 886px) and (max-width: 940px){
+    .navbar-brand > .collegePic{
+        position: relative;
+        bottom: 10px;
+    }
+
+    .description{
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 885px){
+
+
+    .description {
+        font-size: 11px;
+        float: left;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .navbar-brand > img {
+        width: 100px;
+        height: 100px;
+        margin-right: 15px;
+        margin-top: 0px;
+        border-radius: 50%;
+        -moz-box-shadow: 0px 6px 5px #ccc;
+      -webkit-box-shadow: 0px 6px 5px #ccc;
+      box-shadow: 0px 6px 5px #ccc;
+      -moz-border-radius:190px;
+    }
+
+    .navbar-brand > .collegePic{
+        visibility:hidden;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .currentSchool {
+        font-size: 20px;
+    }
+
+    #contactInfo {
+        font-size: 10px;
+        margin-top: 80px;
+
+    }
+
+    #contactInfo > span {
+        visibility: hidden;
+    }
+
+    #contactInfo img {
+        height: 25px;
+        width: 25px;
+        clear: right;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    #contactInfo #gmail {
+        width: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
